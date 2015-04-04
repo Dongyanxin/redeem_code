@@ -1,0 +1,12 @@
+{application, redeem,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { redeem_app, []}},
+  {env, []}
+ ]}.
